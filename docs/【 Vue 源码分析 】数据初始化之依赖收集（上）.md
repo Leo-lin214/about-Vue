@@ -22,7 +22,7 @@ sumFun(1) // 2
 
 
 
-![scope-chain](/Users/andraw-lin/Documents/scope-chain.jpg)
+![scope-chain](https://github.com/Andraw-lin/about-Vue/blob/master/images/scope-chain.jpg)
 
 
 
