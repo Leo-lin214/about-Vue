@@ -19,6 +19,7 @@ Vuejs 源码分析在网上的分享有很多，本人也有参考和学习过�
 - [【 Vue 源码分析 】数据初始化之依赖收集（上）](https://github.com/Andraw-lin/about-Vue/blob/master/docs/%E3%80%90%20Vue%20%E6%BA%90%E7%A0%81%E5%88%86%E6%9E%90%20%E3%80%91%E6%95%B0%E6%8D%AE%E5%88%9D%E5%A7%8B%E5%8C%96%E4%B9%8B%E5%93%8D%E5%BA%94%E5%BC%8F%E6%8E%A2%E7%A9%B6%EF%BC%88%E4%B8%8B%EF%BC%89.md)
 - [【 Vue 源码分析 】数据初始化之依赖收集（下）](https://github.com/Andraw-lin/about-Vue/blob/master/docs/%E3%80%90%20Vue%20%E6%BA%90%E7%A0%81%E5%88%86%E6%9E%90%20%E3%80%91%E6%95%B0%E6%8D%AE%E5%88%9D%E5%A7%8B%E5%8C%96%E4%B9%8B%E4%BE%9D%E8%B5%96%E6%94%B6%E9%9B%86%EF%BC%88%E4%B8%8B%EF%BC%89.md)
 - [【 Vue 源码分析 】数据初始化之依赖更新](https://github.com/Andraw-lin/about-Vue/blob/master/docs/%E3%80%90%20Vue%20%E6%BA%90%E7%A0%81%E5%88%86%E6%9E%90%20%E3%80%91%E6%95%B0%E6%8D%AE%E5%88%9D%E5%A7%8B%E5%8C%96%E4%B9%8B%E4%BE%9D%E8%B5%96%E6%9B%B4%E6%96%B0.md)
+- [【 Vue 源码分析 】为什么不推荐使用 $forceUpdate](https://github.com/Andraw-lin/about-Vue/blob/master/docs/%E3%80%90%20Vue%20%E6%BA%90%E7%A0%81%E5%88%86%E6%9E%90%20%E3%80%91%E4%B8%BA%E4%BB%80%E4%B9%88%E4%B8%8D%E6%8E%A8%E8%8D%90%E4%BD%BF%E7%94%A8%20$forceUpdate.md)
 
 - 待续～～
 
