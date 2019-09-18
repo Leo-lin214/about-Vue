@@ -27,7 +27,7 @@ Vuejs 源码分析在网上的分享有很多，本人也有参考和学习过�
 
 - [【 Vue 源码分析 】方法 Methods](https://github.com/Andraw-lin/about-Vue/blob/master/docs/【%20Vue%20源码分析%20】方法%20Methods.md)
 
-- [【 Vue 源码分析 】运行机制之 Props](https://github.com/Andraw-lin/about-Vue/blob/master/docs/【%20Vue%20源码分析%20】运行机制之%20Props.md)
+- [【 Vue 源码分析 】运行机制之 Props](https://github.com/Andraw-lin/about-Vue/blob/master/docs/%E3%80%90%20Vue%20%E6%BA%90%E7%A0%81%E5%88%86%E6%9E%90%20%E3%80%91%E8%BF%90%E8%A1%8C%E6%9C%BA%E5%88%B6%E4%B9%8B%20Props.md)
 
 - 待续～～
 
