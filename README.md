@@ -33,11 +33,13 @@ Vuejs 源码分析在网上的分享有很多，本人也有参考和学习过�
 
 - [【 Vue 源码分析 】混合 Mixin（下）](https://github.com/Andraw-lin/about-Vue/blob/master/docs/%E3%80%90%20Vue%20%E6%BA%90%E7%A0%81%E5%88%86%E6%9E%90%20%E3%80%91%E6%B7%B7%E5%90%88%20Mixin%EF%BC%88%E4%B8%8B%EF%BC%89.md)
 
+- [【 Vue 源码分析 】生命周期 Lifecycle](https://github.com/Andraw-lin/about-Vue/blob/master/docs/%E3%80%90%20Vue%20%E6%BA%90%E7%A0%81%E5%88%86%E6%9E%90%20%E3%80%91%E6%B7%B7%E5%90%88%20Mixin%EF%BC%88%E4%B8%8B%EF%BC%89.md)
+
 - 待续～～
 
 ## 其他话题
 
-- [Object.create(null) 与 {} 究竟有什么不一样](https://github.com/Andraw-lin/about-Vue/blob/master/docs/Object.create(null)%20%E4%B8%8E%20%7B%7D%20%E7%A9%B6%E7%AB%9F%E6%9C%89%E4%BB%80%E4%B9%88%E4%B8%8D%E4%B8%80%E6%A0%B7.md)
+- [Object.create(null) 与 {} 究竟有什么不一样](https://github.com/Andraw-lin/about-Vue/blob/master/docs/%E3%80%90%20Vue%20%E6%BA%90%E7%A0%81%E5%88%86%E6%9E%90%20%E3%80%91%E7%94%9F%E5%91%BD%E5%91%A8%E6%9C%9F%20Lifecycle.md)
 
 ---
 
