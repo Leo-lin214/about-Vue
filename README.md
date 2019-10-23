@@ -33,7 +33,7 @@ Vuejs 源码分析在网上的分享有很多，本人也有参考和学习过�
 
 - [【 Vue 源码分析 】混合 Mixin（下）](https://github.com/Andraw-lin/about-Vue/blob/master/docs/%E3%80%90%20Vue%20%E6%BA%90%E7%A0%81%E5%88%86%E6%9E%90%20%E3%80%91%E6%B7%B7%E5%90%88%20Mixin%EF%BC%88%E4%B8%8B%EF%BC%89.md)
 
-- [【 Vue 源码分析 】生命周期 Lifecycle](https://github.com/Andraw-lin/about-Vue/blob/master/docs/%E3%80%90%20Vue%20%E6%BA%90%E7%A0%81%E5%88%86%E6%9E%90%20%E3%80%91%E6%B7%B7%E5%90%88%20Mixin%EF%BC%88%E4%B8%8B%EF%BC%89.md)
+- [【 Vue 源码分析 】生命周期 Lifecycle](https://github.com/Andraw-lin/about-Vue/blob/master/docs/【%20Vue%20源码分析%20】生命周期%20Lifecycle.md)
 
 - 待续～～
 
