@@ -139,20 +139,20 @@ function proxy (target, sourceKey, key) { // 将 data 中属性挂载在 Vue 实
    说了那么多，到底怎么用啊？？别的不说 🙊，直接来一波 🌰 体验一下：
 
    ```javascript
-   var book = {
-     year: 2008
-   }
-   Object.defineProperty(book, 'year', {
-     get() {
-       return book.year
-     },
-     set(val) {
-     	book.year = val
-   	}
-   })
-   console.log(book.year) // 2008
-   book.year = 2019
-   console.log(book.year) // 2019
+    var book = {
+      year: 2008
+    }
+    Object.defineProperty(book, '_year', {
+      get() {
+        return book.year
+      },
+      set(val) {
+        book.year = val
+      }
+    })
+    console.log(book._year) // 2008
+    book._year = 2019
+    console.log(book.year) // 2019
    ```
 
    可以看到，每次访问`book.year`时会经过`get`方法获取真正`_year`，而每次更改`book.year`时都会经过`set`方法来操作真正的`_year`。
