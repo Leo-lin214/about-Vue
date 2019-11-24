@@ -35,6 +35,8 @@ Vuejs 源码分析在网上的分享有很多，本人也有参考和学习过�
 
 - [【 Vue 源码分析 】生命周期 Lifecycle](https://github.com/Andraw-lin/about-Vue/blob/master/docs/【%20Vue%20源码分析%20】生命周期%20Lifecycle.md)
 
+- [【 Vue 源码分析 】异步更新队列之 NextTick](https://github.com/Andraw-lin/about-Vue/blob/master/docs/%E3%80%90%20Vue%20%E6%BA%90%E7%A0%81%E5%88%86%E6%9E%90%20%E3%80%91%E5%BC%82%E6%AD%A5%E6%9B%B4%E6%96%B0%E9%98%9F%E5%88%97%E4%B9%8B%20NextTick.md)
+
 - 待续～～
 
 ## 其他话题
