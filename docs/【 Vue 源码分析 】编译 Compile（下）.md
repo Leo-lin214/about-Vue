@@ -178,11 +178,11 @@ function optimize (root, options) { // 优化编译开始
 >
 > 1. Hoist them into constants, so that we no longer need to create fresh nodes for them on each re-render;
 >
->    将它们提升为常量，这样我们就不再需要在每次重新渲染时为他们创建新的节点；
+> 将它们提升为常量，这样我们就不再需要在每次重新渲染时为他们创建新的节点；
 >
 > 2. Completely skip them in the patching process.
 >
->    在更改过程中完全跳过它们进行编译。
+> 在更改过程中完全跳过它们进行编译。
 
 看了官方解释，是否眼前一亮，无非就是对静态节点范围的标记，然后在下次编译时就会跳过并且在渲染过程中也不会再次渲染该节点，因为**静态节点都是不可变得**。
 
@@ -351,7 +351,7 @@ function genStatic (el, state) { // 生成静态树的渲染方法
 
 - 将静态树使用`with`操作符将渲染方法绑定相应作用域，并保存到`staticRenderFns`属性中。
 
-注：`with`作用域在[**【 Vue 源码分析 】运行机制之 Props**]([https://github.com/Andraw-lin/about-Vue/blob/master/docs/%E3%80%90%20Vue%20%E6%BA%90%E7%A0%81%E5%88%86%E6%9E%90%20%E3%80%91%E8%BF%90%E8%A1%8C%E6%9C%BA%E5%88%B6%E4%B9%8B%20Props.md](https://github.com/Andraw-lin/about-Vue/blob/master/docs/[ Vue 源码分析 ]运行机制之 Props.md))中提及过，忘记的童鞋们有兴趣还是可以返回去看看哈。
+注：`with`作用域在[【 Vue 源码分析 】运行机制之 Props](https://github.com/Andraw-lin/about-Vue/blob/master/docs/%E3%80%90%20Vue%20%E6%BA%90%E7%A0%81%E5%88%86%E6%9E%90%20%E3%80%91%E8%BF%90%E8%A1%8C%E6%9C%BA%E5%88%B6%E4%B9%8B%20Props.md) 中提及过，忘记的童鞋们有兴趣还是可以返回去看看哈。
 
 对于上述过程，也许你会有疑惑了，究竟`_m`、`_c`是什么东西，又是能干嘛的？别急，在下一章 Render 中我会慢慢提到的。
 
@@ -361,52 +361,7 @@ function genStatic (el, state) { // 生成静态树的渲染方法
 
 🙈 至此，编译阶段基本讲解完啦，可能有些地方讲的还是比较简单，望见谅哈。现在回头来总结一下，`Compile`编译阶段到底做了哪些事情。
 
-- 一个完整编译阶段，必须经过**语法解析`parse`**、**优化编译`optimise`**、**生成渲染方法`generate`**三大阶段。
+- 一个完整编译阶段，必须经过语法解析`parse`、优化编译`optimise`、生成渲染方法`generate`三大阶段。
 - 语法解析`parse`主要负责**将`template`模板内容转换成相应的`AST`抽象语法树**。
 - 优化编译`optimise`主要负责**遍历转换好的`AST`抽象语法树，分别标记非静态节点和静态树**。
 - 生成渲染方法`generate`主要负责**对优化好的`AST`抽象语法树生成相应的渲染方法，并将绑定好作用域的静态树渲染方法保存起来**。
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
