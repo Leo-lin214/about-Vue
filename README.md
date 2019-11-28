@@ -37,6 +37,12 @@ Vuejs 源码分析在网上的分享有很多，本人也有参考和学习过�
 
 - [【 Vue 源码分析 】从 Template 到 DOM 过程是怎样的](https://github.com/Andraw-lin/about-Vue/blob/master/docs/%E3%80%90%20Vue%20%E6%BA%90%E7%A0%81%E5%88%86%E6%9E%90%20%E3%80%91%E4%BB%8E%20Template%20%E5%88%B0%20DOM%20%E8%BF%87%E7%A8%8B%E6%98%AF%E6%80%8E%E6%A0%B7%E7%9A%84.md)
 
+- [【 Vue 源码分析 】编译 Compile（上）](https://github.com/Andraw-lin/about-Vue/blob/master/docs/%E3%80%90%20Vue%20%E6%BA%90%E7%A0%81%E5%88%86%E6%9E%90%20%E3%80%91%E7%BC%96%E8%AF%91%20Compile%EF%BC%88%E4%B8%8A%EF%BC%89.md)
+
+- [【 Vue 源码分析 】编译 Compile（下）](https://github.com/Andraw-lin/about-Vue/blob/master/docs/%E3%80%90%20Vue%20%E6%BA%90%E7%A0%81%E5%88%86%E6%9E%90%20%E3%80%91%E7%BC%96%E8%AF%91%20Compile%EF%BC%88%E4%B8%8B%EF%BC%89.md)
+
+- [【 Vue 源码分析 】渲染 Render (AST -> VNode)](https://github.com/Andraw-lin/about-Vue/blob/master/docs/%E3%80%90%20Vue%20%E6%BA%90%E7%A0%81%E5%88%86%E6%9E%90%20%E3%80%91%E6%B8%B2%E6%9F%93%20Render%20(AST%20-%3E%20VNode).md)
+
 - 待续～～
 
 <br/>
